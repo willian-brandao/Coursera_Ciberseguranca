@@ -312,6 +312,7 @@ Os agentes de ameaças novos e não qualificados têm vários objetivos, inclusi
 
 Outros tipos de hackers não são motivados por nenhuma agenda específica além de concluir o trabalho para o qual foram contratados. Esses tipos de hackers podem ser considerados hackers antiéticos ou éticos. Eles são conhecidos por trabalhar em tarefas legais e ilegais mediante pagamento.
 
+<<<<<<< HEAD
  **Frameworks de Segurança Cibernética**
 
 **Frameworks**
@@ -714,3 +715,9 @@ Depois de conter o incidente, a terceira etapa do manual descreve maneiras de el
 
 Finalmente, depois que o incidente for resolvido, a quarta etapa do manual instrui o analista a realizar várias atividades pós-incidente e esforços de coordenação com a equipe de segurança. Algumas ações incluem a criação de um relatório final para comunicar o incidente de segurança às partes interessadas ou relatar o incidente às autoridades competentes, como o Departamento Federal de Investigações dos EUA ou outras agências que investigam crimes cibernéticos.
 
+=======
+ 
+
+ 
+
+>>>>>>> 7fbb8d6fc5ece5b929f703862418392c148780f0
