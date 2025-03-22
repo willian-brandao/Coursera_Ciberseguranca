@@ -458,6 +458,34 @@ Uma empresa que esteja prestes a lançar seu site e queira obter um certificado 
 
 **Criptografia simétrica e assimétrica**
 
+Tipos de criptografia simétrica é o uso de uma única chave secreta para trocar informações. Como ela usa uma única chave para criptografia e descriptografia, o remetente e o destinatário devem conhecer a chave secreta para bloquear ou desbloquear a cifra. 
+
+A criptografia assimétrica é o uso de um par de chaves pública e privada para criptografia e descriptografia de dados. Ela usa duas chaves separadas: uma chave pública e uma chave privada. A chave pública é usada para criptografar dados, e a chave privada os descriptografa. A chave privada os descriptografa. A chave privada é fornecida a usuários com acesso autorizado. 
+
+**A importância do comprimento da chave**
+
+As cifras vulneráveis a ataques de força bruta, que usam um processo de tentativa e erro para descobrir informações privadas. Essa tática é o equivalente digital a tentar todos os números em uma combinação de fechadura para tentar encontrar o número certo. Na criptografia moderna, comprimentos de chave mais longos são considerados mais seguros. Comprimentos de chave mais longos significam mais possibilidades que um invasor precisa tentar para desbloquear uma cifra. 
+
+A desvantagem de ter chaves de criptografia longas é o tempo de processamento mais lento. Embora os comprimentos de chave curtos sejam geralmente menos seguros, sua comparação é muito mais rápida. Fornecer comunicação rápida de dados on-line, ao mesmo tempo, manter informações seguras é um ato de equilíbrio delicado. 
+
+**Algoritmos aprovados**
+
+Muitos aprovados da Web usam combinação de criptografia simétrica e assimétrica. É assim que eles equilibram a experiência do usuário com a proteção de informações.
+
+**Algoritmos simétricos**
+
+O triple DES (3DES) é conhecido como  um cifra de bloco devido à maneira como converter texto simples em texto cifrado em “blocos” suas origens remontam ao padrão de criptografia de dados (DES), que foi desenvolvido no início da década de 1970\. O DES foi um dos primeiros algoritmos de criptografia simétrica que gerou chaves de 64 bits, embora apenas 56 bits sejam usados para criptografia. Um bit é a menor unidade de medida de dados em um computador. O triplo DES gera chave três vezes mais longas. O Triple DES aplica o algoritmo DES três vezes, usando três chaves diferentes de 56 bits. Isso resulta em um comprimento de chave efetivo de 168 bits. Apesar das chaves mais longas, muitas organizações estão deixando de usar o triple DES devido a limites na quantidade de dados que podem  ser criptografados. No entanto, é provável que o triples DES continue sendo usado para fins de compatibilidade com versões anteriores.
+
+Padrão de criptografia avançada (AES) é um algoritmos simétricos mais seguros da atualidade. O AES gera chaves de 128, 192 ou 256 bits. Chaves criptográficas desse tamanho são consideradas seguras contra ataques de força bruta. Estima-se que a força bruta de uma chave AES de 128 bits poderia levar bilhões de anos para um computador moderno. 
+
+**Geração de Chave**
+
+Esses algoritmos devem ser implementados quando uma organização escolhe um deles para proteger os dados. Uma maneira de fazer isso é usar o OpenSSL, que é uma ferramenta de linha de comando de código aberto que pode ser usada para gerar chaves públicas e privadas. O OpenSSL é comumente usado por computadores para verificar certificados digitais que são trocados como parte da infraestrutura de chave pública (PKI).
+
+Obs: O OpenSSL é apenas uma opção. Há várias outras disponíveis que podem gerar chaves para qualquer um desses algoritmos comuns. 
+
+No início de 2014, o OpenSSL divulgou uma vulnerabilidade, conhecida como bug Heartbleed, que expôs dados confidenciais na memória de sites e aplicativos. Embora versões não corrigidas do OpenSSL ainda estejam disponíveis, o bug Heartbleed foi corrigido no final daquele ano (2014). Atualmente, muitas empresas usam as versões seguras  do OpenSSL para gerar chaves públicas e privadas, o que demonstra a importância de usar softwares atualizados. 
+
 Mais informações: 
 
 [https://www.cisa.gov/sites/default/files/publications/Commercial\_Facilities\_Sector\_Cybersecurity\_Framework\_Implementation\_Guidance\_FINAL\_508.pdf](https://www.cisa.gov/sites/default/files/publications/Commercial_Facilities_Sector_Cybersecurity_Framework_Implementation_Guidance_FINAL_508.pdf)
@@ -469,4 +497,6 @@ Mais informações:
 [https://www.coursera.org/learn/assets-threats-and-vulnerabilities/quiz/NkQt0/activity-determine-appropriate-data-handling-practices/attempt](https://www.coursera.org/learn/assets-threats-and-vulnerabilities/quiz/NkQt0/activity-determine-appropriate-data-handling-practices/attempt)
 
 [https://docs.google.com/document/d/1677CNrxn-Ap6oFX-OY0r23yoPQq46wPWZQmZus28oDo/template/preview?resourcekey=0-gr\_UkcEPsUVSOMNRLyS8aw](https://docs.google.com/document/d/1677CNrxn-Ap6oFX-OY0r23yoPQq46wPWZQmZus28oDo/template/preview?resourcekey=0-gr_UkcEPsUVSOMNRLyS8aw)
+
+[https://en.wikipedia.org/wiki/Heartbleed](https://en.wikipedia.org/wiki/Heartbleed) 
 
