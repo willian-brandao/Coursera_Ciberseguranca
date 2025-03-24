@@ -486,6 +486,7 @@ Obs: O OpenSSL é apenas uma opção. Há várias outras disponíveis que podem 
 
 No início de 2014, o OpenSSL divulgou uma vulnerabilidade, conhecida como bug Heartbleed, que expôs dados confidenciais na memória de sites e aplicativos. Embora versões não corrigidas do OpenSSL ainda estejam disponíveis, o bug Heartbleed foi corrigido no final daquele ano (2014). Atualmente, muitas empresas usam as versões seguras  do OpenSSL para gerar chaves públicas e privadas, o que demonstra a importância de usar softwares atualizados. 
 
+<<<<<<< HEAD
 **Obscuridade não é segurança**
 
 No mundo da criptografia, é preciso provar que uma cifra é inquebrável antes de afirmar que ela é segura. De acordo com o princípio de Kerchoffs, a criptografia deve ser projetada de forma que todos os detalhes de um algoritmo, exceto a chave privada, possam ser conhecidos sem sacrificar sua segurança. Por exemplo, é possível acessar todos os detalhes sobre como a criptografia AES funciona on-line e, ainda assim, ela é inviolável.
@@ -510,6 +511,13 @@ Mais informações:
 
 [https://www.coursera.org/learn/assets-threats-and-vulnerabilities/supplement/7MS3w](https://www.coursera.org/learn/assets-threats-and-vulnerabilities/supplement/7MS3w/information-privacy-regulations-and-compliance)  
 [/information-privacy-regulations-and-compliance](https://www.coursera.org/learn/assets-threats-and-vulnerabilities/supplement/7MS3w/information-privacy-regulations-and-compliance)
+=======
+Mais informações: 
+
+[https://www.cisa.gov/sites/default/files/publications/Commercial\_Facilities\_Sector\_Cybersecurity\_Framework\_Implementation\_Guidance\_FINAL\_508.pdf](https://www.cisa.gov/sites/default/files/publications/Commercial_Facilities_Sector_Cybersecurity_Framework_Implementation_Guidance_FINAL_508.pdf)
+
+[https://www.coursera.org/learn/assets-threats-and-vulnerabilities/supplement/7MS3w/information-privacy-regulations-and-compliance](https://www.coursera.org/learn/assets-threats-and-vulnerabilities/supplement/7MS3w/information-privacy-regulations-and-compliance)
+>>>>>>> a61c2e12fa73144a7602f869d02e439365f6cd85
 
 [https://docs.google.com/document/d/1fqPEK1Cy9cLsR4SvewhqfanU75JkAegy1TAJNcWex5U/template/preview?resourcekey=0-rYoRJ\_z6hCgITUqRwmOoCQ](https://docs.google.com/document/d/1fqPEK1Cy9cLsR4SvewhqfanU75JkAegy1TAJNcWex5U/template/preview?resourcekey=0-rYoRJ_z6hCgITUqRwmOoCQ)
 
@@ -519,5 +527,8 @@ Mais informações:
 
 [https://en.wikipedia.org/wiki/Heartbleed](https://en.wikipedia.org/wiki/Heartbleed) 
 
+<<<<<<< HEAD
 [https://en.wikipedia.org/wiki/Kerckhoffs%27s\_principle](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
 
+=======
+>>>>>>> a61c2e12fa73144a7602f869d02e439365f6cd85
